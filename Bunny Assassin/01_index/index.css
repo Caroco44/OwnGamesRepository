@@ -1,0 +1,40 @@
+html {
+    background: rgb(15, 14, 0);
+}
+
+@font-face {
+    font-family: 'Pneumatics';
+    src: url(/Material/Font/pneumatics-family/pneumatics.brk.ttf);
+}
+
+#bunnyAssassin {
+    color: aliceblue;
+    font-family: 'Pneumatics';
+    font-size: 90px;
+    font-weight: 500;
+    margin-left: 80px;
+}
+
+#byCarolineKraemer {
+    color: aliceblue;
+    font-family: 'Pneumatics';
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+#startGameButton {
+    width: 250px;
+    height: auto;
+    margin-left: 330px;
+    margin-top: 80px;
+    opacity: 0.5;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#startGameButton:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}

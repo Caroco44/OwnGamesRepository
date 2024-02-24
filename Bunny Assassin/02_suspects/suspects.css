@@ -15,3 +15,18 @@ html {
     margin-left: 80px;
     margin-top: 70px;
 }
+
+#ghost {
+    width: 450px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: -120px;
+    opacity: 0.8;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#ghost:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}

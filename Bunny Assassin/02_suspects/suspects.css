@@ -1,0 +1,17 @@
+html {
+    background: rgb(15, 14, 0);
+}
+
+@font-face {
+    font-family: 'Pneumatics';
+    src: url(/Material/Font/pneumatics-family/pneumatics.brk.ttf);
+}
+
+#suspects {
+    color: aliceblue;
+    font-family: 'Pneumatics';
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-top: 70px;
+}

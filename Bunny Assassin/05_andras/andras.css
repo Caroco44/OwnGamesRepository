@@ -66,7 +66,7 @@ html {
     position: absolute;
     width: 20px;
     height: auto;
-    opacity: 0.9;
+    opacity: 0;
     transform: scale(1);
     /* duration = 0.2s, no delay */
     transition: all 0.2s ease-in-out 0s;
@@ -78,48 +78,48 @@ html {
 }
 
 #littleB01 {
-    margin-left: 535px;
-    margin-top: 125px;
+    margin-left: 610px;
+    margin-top: 190px;
 }
 
 #littleB02 {
-    margin-left: 610px;
-    margin-top: 250px;
+    margin-left: 555px;
+    margin-top: 310px;
 }
 
 #littleB03 {
-    margin-left: 550px;
-    margin-top: 350px;
+    margin-left: 605px;
+    margin-top: 280px;
 }
 
 #littleB04 {
-    margin-left: 630px;
-    margin-top: 400px;
+    margin-left: 610px;
+    margin-top: 340px;
 }
 
 #littleB05 {
-    margin-left: 720px;
-    margin-top: 360px;
+    margin-left: 665px;
+    margin-top: 340px;
 }
 
 #littleB06 {
-    margin-left: 740px;
-    margin-top: 410px;
+    margin-left: 700px;
+    margin-top: 435px;
 }
 
 #littleB07 {
-    margin-left: 665px;
-    margin-top: 443px;
+    margin-left: 500px;
+    margin-top: 150px;
 }
 
 #littleB08 {
     margin-left: 460px;
-    margin-top: 460px;
+    margin-top: 440px;
 }
 
 #littleB09 {
-    margin-left: 440px;
-    margin-top: 410px;
+    margin-left: 485px;
+    margin-top: 250px;
 }
 
 #littleB10 {

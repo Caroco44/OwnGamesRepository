@@ -103,7 +103,7 @@ document.getElementById('littleB01').addEventListener('click', function () {
     // Hide ghostStatement after 2 seconds
     setTimeout(function () {
       ghostStatement.style.display = 'none';
-    }, 3000);
+    }, 500);
   });
 
   document.getElementById('littleB10').addEventListener('click', function () {

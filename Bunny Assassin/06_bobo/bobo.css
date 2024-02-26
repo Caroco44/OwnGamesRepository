@@ -66,7 +66,7 @@ html {
     position: absolute;
     width: 20px;
     height: auto;
-    opacity: 0.9;
+    opacity: 0;
     transform: scale(1);
     /* duration = 0.2s, no delay */
     transition: all 0.2s ease-in-out 0s;
@@ -78,48 +78,48 @@ html {
 }
 
 #littleB01 {
-    margin-left: 430px;
-    margin-top: 155px;
+    margin-left: 490px;
+    margin-top: 200px;
 }
 
 #littleB02 {
-    margin-left: 596px;
-    margin-top: 175px;
+    margin-left: 710px;
+    margin-top: 200px;
 }
 
 #littleB03 {
-    margin-left: 400px;
-    margin-top: 320px;
+    margin-left: 698px;
+    margin-top: 270px;
 }
 
 #littleB04 {
-    margin-left: 545px;
-    margin-top: 290px;
+    margin-left: 450px;
+    margin-top: 280px;
 }
 
 #littleB05 {
-    margin-left: 605px;
-    margin-top: 305px;
-}
-
-#littleB06 {
-    margin-left: 582px;
-    margin-top: 330px;
-}
-
-#littleB07 {
-    margin-left: 555px;
+    margin-left: 620px;
     margin-top: 350px;
 }
 
+#littleB06 {
+    margin-left: 450px;
+    margin-top: 400px;
+}
+
+#littleB07 {
+    margin-left: 700px;
+    margin-top: 415px;
+}
+
 #littleB08 {
-    margin-left: 500px;
-    margin-top: 383px;
+    margin-left: 510px;
+    margin-top: 320px;
 }
 
 #littleB09 {
-    margin-left: 663px;
-    margin-top: 335px;
+    margin-left: 540px;
+    margin-top: 380px;
 }
 
 /* All Ghost Statements */

@@ -16,10 +16,31 @@ html {
     margin-top: 70px;
 }
 
-#ghost {
+/* Oakley */
+
+#oakley {
+    position: absolute;
     width: 450px;
     height: auto;
-    margin-left: 60px;
+    margin-left: -70px;
+    margin-top: -110px;
+    opacity: 0.8;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#oakley:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Ghost */
+
+#ghost {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    margin-left: 280px;
     margin-top: -120px;
     opacity: 0.8;
     transform: scale(1);
@@ -27,6 +48,42 @@ html {
 }
 
 #ghost:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Andras */
+
+#andras {
+    position: absolute;
+    width: 470px;
+    height: auto;
+    margin-left: 560px;
+    margin-top: -140px;
+    opacity: 0.8;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#andras:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Bobo */
+
+#bobo {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    margin-left: 840px;
+    margin-top: -90px;
+    opacity: 0.8;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#bobo:hover {
     transform: scale(1.1);
     opacity: 1;
 }

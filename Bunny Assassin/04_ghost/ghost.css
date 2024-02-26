@@ -2,6 +2,20 @@ html {
     background: rgb(15, 14, 0);
 }
 
+@font-face {
+    font-family: 'Pneumatics';
+    src: url(/Material/Font/pneumatics-family/pneumatics.brk.ttf);
+}
+
+#text {
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Pneumatics';
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
 .ghost {
     position: absolute;
     width: 600px;
@@ -33,7 +47,7 @@ html {
     position: absolute;
     width: 20px;
     height: auto;
-    opacity: 0.6;
+    opacity: 0;
     transform: scale(1);
     /* duration = 0.2s, no delay */
     transition: all 0.2s ease-in-out 0s;
@@ -91,7 +105,11 @@ html {
 
 /* All Ghost Statements */
 
-#ghostButton01 {
+.ghostStatements {
+    display: none;
+}
+
+#ghostStatement01 {
     position: absolute;
     width: 500px;
     height: auto;
@@ -99,7 +117,7 @@ html {
     margin-top: 30px;
 }
 
-#ghostButton02 {
+#ghostStatement02 {
     position: absolute;
     width: 500px;
     height: auto;
@@ -107,7 +125,7 @@ html {
     margin-top: 80px;
 }
 
-#ghostButton03 {
+#ghostStatement03 {
     position: absolute;
     width: 500px;
     height: auto;
@@ -115,7 +133,7 @@ html {
     margin-top: 130px;
 }
 
-#ghostButton04 {
+#ghostStatement04 {
     position: absolute;
     width: 500px;
     height: auto;
@@ -123,7 +141,7 @@ html {
     margin-top: 180px;
 }
 
-#ghostButton05 {
+#ghostStatement05 {
     position: absolute;
     width: 500px;
     height: auto;
@@ -131,7 +149,7 @@ html {
     margin-top: 230px;
 }
 
-#ghostButton06 {
+#ghostStatement06 {
     position: absolute;
     width: 500px;
     height: auto;
@@ -139,7 +157,7 @@ html {
     margin-top: 280px;
 }
 
-#ghostButton07 {
+#ghostStatement07 {
     position: absolute;
     width: 500px;
     height: auto;
@@ -147,7 +165,7 @@ html {
     margin-top: 330px;
 }
 
-#ghostButton08 {
+#ghostStatement08 {
     position: absolute;
     width: 500px;
     height: auto;
@@ -155,7 +173,7 @@ html {
     margin-top: 380px;
 }
 
-#ghostButton09 {
+#ghostStatement09 {
     position: absolute;
     width: 500px;
     height: auto;

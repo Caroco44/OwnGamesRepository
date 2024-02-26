@@ -2,6 +2,7 @@ html {
     background: rgb(15, 14, 0);
 }
 
+/* 
 #objects {
     opacity: 0.8;
     transform: scale(1);
@@ -12,11 +13,125 @@ html {
     transform: scale(1.1);
     opacity: 1;
 }
+*/
 
 .ghost {
-    position: absolute;
+    position: relative;
     width: 600px;
     height: auto;
     margin-left: 280px;
     margin-top: -80px;
+}
+
+#seeAllSuspects {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 150px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#seeAllSuspects:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#ghostButton01 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 30px;
+}
+
+#ghostButton02 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 80px;
+}
+
+#ghostButton03 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 130px;
+}
+
+#ghostButton04 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 180px;
+}
+
+#ghostButton05 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 230px;
+}
+
+#ghostButton06 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 280px;
+}
+
+#ghostButton07 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 330px;
+}
+
+#ghostButton08 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 380px;
+}
+
+#ghostButton09 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 430px;
+}
+
+#ghostImage01 {
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#ghostImage01:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#ghostImage02 {
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#ghostImage02:hover {
+    transform: scale(1.1);
+    opacity: 1;
 }

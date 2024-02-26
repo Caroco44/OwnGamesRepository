@@ -1,0 +1,201 @@
+html {
+    background: rgb(15, 14, 0);
+}
+
+@font-face {
+    font-family: 'Pneumatics';
+    src: url(/Material/Font/pneumatics-family/pneumatics.brk.ttf);
+}
+
+#text {
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Pneumatics';
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.bobo {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    margin-left: 280px;
+    margin-top: -50px;
+}
+
+/* Side Buttons */
+
+#seeAllSuspects {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 150px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#seeAllSuspects:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#solvedCase {
+    position: absolute;
+    width: 380px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 300px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#solvedCase:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* All Little Buttons */
+
+.littleBs {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    opacity: 0.9;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.littleBs:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#littleB01 {
+    margin-left: 430px;
+    margin-top: 155px;
+}
+
+#littleB02 {
+    margin-left: 596px;
+    margin-top: 175px;
+}
+
+#littleB03 {
+    margin-left: 400px;
+    margin-top: 320px;
+}
+
+#littleB04 {
+    margin-left: 545px;
+    margin-top: 290px;
+}
+
+#littleB05 {
+    margin-left: 605px;
+    margin-top: 305px;
+}
+
+#littleB06 {
+    margin-left: 582px;
+    margin-top: 330px;
+}
+
+#littleB07 {
+    margin-left: 555px;
+    margin-top: 350px;
+}
+
+#littleB08 {
+    margin-left: 500px;
+    margin-top: 383px;
+}
+
+#littleB09 {
+    margin-left: 663px;
+    margin-top: 335px;
+}
+
+/* All Ghost Statements */
+
+.boboStatements {
+    display: none;
+}
+
+#boboStatement01 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 30px;
+}
+
+#boboStatement02 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 80px;
+}
+
+#boboStatement03 {
+    position: absolute;
+    width: 280px;
+    height: auto;
+    margin-left: 760px;
+    margin-top: 130px;
+}
+
+#boboStatement04 {
+    position: absolute;
+    width: 280px;
+    height: auto;
+    margin-left: 760px;
+    margin-top: 170px;
+}
+
+#boboStatement05 {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 220px;
+}
+
+#boboStatement06 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 270px;
+}
+
+#boboStatement07 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 320px;
+}
+
+#boboStatement08 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 370px;
+}
+
+#boboStatement09 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 420px;
+}

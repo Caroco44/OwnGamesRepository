@@ -1,0 +1,214 @@
+html {
+    background: rgb(15, 14, 0);
+}
+
+@font-face {
+    font-family: 'Pneumatics';
+    src: url(/Material/Font/pneumatics-family/pneumatics.brk.ttf);
+}
+
+#text {
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Pneumatics';
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.andras {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    margin-left: 280px;
+    margin-top: -80px;
+}
+
+/* Side Buttons */
+
+#seeAllSuspects {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 150px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#seeAllSuspects:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#solvedCase {
+    position: absolute;
+    width: 380px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 300px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#solvedCase:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* All Little Buttons */
+
+.littleBs {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    opacity: 0.9;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.littleBs:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#littleB01 {
+    margin-left: 535px;
+    margin-top: 125px;
+}
+
+#littleB02 {
+    margin-left: 610px;
+    margin-top: 250px;
+}
+
+#littleB03 {
+    margin-left: 550px;
+    margin-top: 350px;
+}
+
+#littleB04 {
+    margin-left: 630px;
+    margin-top: 400px;
+}
+
+#littleB05 {
+    margin-left: 720px;
+    margin-top: 360px;
+}
+
+#littleB06 {
+    margin-left: 740px;
+    margin-top: 410px;
+}
+
+#littleB07 {
+    margin-left: 665px;
+    margin-top: 443px;
+}
+
+#littleB08 {
+    margin-left: 460px;
+    margin-top: 460px;
+}
+
+#littleB09 {
+    margin-left: 440px;
+    margin-top: 410px;
+}
+
+#littleB10 {
+    margin-left: 500px;
+    margin-top: 385px;
+}
+
+/* All Andras Statements */
+
+.andrasStatements {
+    display: none;
+}
+
+#andrasStatement01 {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    margin-left: 770px;
+    margin-top: 0px;
+}
+
+#andrasStatement02 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 40px;
+}
+
+#andrasStatement03 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 90px;
+}
+
+#andrasStatement04 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 140px;
+}
+
+#andrasStatement05 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 190px;
+}
+
+#andrasStatement06 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 240px;
+}
+
+#andrasStatement07 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 290px;
+}
+
+#andrasStatement08 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 340px;
+}
+
+#andrasStatement09 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 390px;
+}
+
+#andrasStatement10 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 440px;
+}

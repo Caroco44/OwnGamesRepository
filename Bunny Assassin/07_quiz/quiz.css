@@ -4,10 +4,6 @@ html {
 
 /* quiz01 */
 
-/* #quiz01 {
-    display: none;
-} */
-
 #shape01 {
     position: absolute;
     width: 1200px;
@@ -509,6 +505,40 @@ html {
 }
 
 #third07:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* other */
+
+@font-face {
+    font-family: 'Pneumatics';
+    src: url(/Material/Font/pneumatics-family/pneumatics.brk.ttf);
+}
+
+#rightSolutionCount {
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Pneumatics';
+    font-size: 40px;
+    left: calc((100% - 870px)/2);
+    margin-top: 180px;
+}
+
+#viewFullStory {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: calc((100% - 400px)/2);
+    margin-top: 300px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#viewFullStory:hover {
     transform: scale(1.1);
     opacity: 1;
 }

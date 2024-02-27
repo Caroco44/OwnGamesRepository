@@ -1,0 +1,35 @@
+html {
+    background: rgb(15, 14, 0);
+}
+
+@font-face {
+    font-family: 'Pneumatics';
+    src: url(/Material/Font/pneumatics-family/pneumatics.brk.ttf);
+}
+
+#text {
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Pneumatics';
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+#replay {
+    width: 350px;
+    height: auto;
+    margin-left: 180px;
+    margin-top: 300px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#replay:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+

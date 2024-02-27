@@ -223,9 +223,9 @@ html {
 
 /* quiz04 */
 
-/* #quiz04 {
+#quiz04 {
     display: none;
-} */
+}
 
 #shape04 {
     position: absolute;
@@ -248,7 +248,7 @@ html {
     width: 330px;
     height: auto;
     margin-left: 200px;
-    margin-top: 275px;
+    margin-top: 205px;
     opacity: 0.8;
     transform: scale(1);
     /* duration = 0.2s, no delay */
@@ -264,8 +264,8 @@ html {
     position: absolute;
     width: 330px;
     height: auto;
-    left: calc((100% - 330px)/2);
-    margin-top: 260px;
+    left: calc(((100% - 330px)/2) - 5px);
+    margin-top: 210px;
     opacity: 0.8;
     transform: scale(1);
     /* duration = 0.2s, no delay */
@@ -279,10 +279,10 @@ html {
 
 #third04 {
     position: absolute;
-    width: 330px;
+    width: 360px;
     height: auto;
-    margin-left: 780px;
-    margin-top: 265px;
+    margin-left: 765px;
+    margin-top: 230px;
     opacity: 0.8;
     transform: scale(1);
     /* duration = 0.2s, no delay */
@@ -293,4 +293,224 @@ html {
     transform: scale(1.1);
     opacity: 1;
 }
+
+/* quiz05 */
+
+#quiz05 {
+    display: none;
+}
+
+#shape05 {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    margin-top: -20px;
+    left: calc((100% - 1200px)/2); 
+}
+
+#question05 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-top: 80px;
+    left: calc((100% - 500px)/2);
+}
+
+#first05 {
+    position: absolute;
+    width: 210px;
+    height: auto;
+    margin-left: 310px;
+    margin-top: 265px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#first05:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#second05 {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    left: calc((100% - 330px)/2);
+    margin-top: 280px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#second05:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#third05 {
+    position: absolute;
+    width: 210px;
+    height: auto;
+    margin-left: 790px;
+    margin-top: 270px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#third05:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* quiz06 */
+
+#quiz06 {
+    display: none;
+}
+
+#shape06 {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    margin-top: -20px;
+    left: calc((100% - 1200px)/2); 
+}
+
+#question06 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-top: 80px;
+    left: calc((100% - 500px)/2);
+}
+
+#first06 {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 185px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#first06:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#second06 {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    left: calc((100% - 330px)/2);
+    margin-top: 170px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#second06:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#third06 {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    margin-left: 780px;
+    margin-top: 185px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#third06:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* quiz07 */
+
+#quiz07 {
+    display: none;
+}
+
+#shape07 {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    margin-top: -20px;
+    left: calc((100% - 1200px)/2); 
+}
+
+#question07 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-top: 80px;
+    left: calc((100% - 500px)/2);
+}
+
+#first07 {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 220px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#first07:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#second07 {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    left: calc((100% - 330px)/2);
+    margin-top: 225px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#second07:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#third07 {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    margin-left: 780px;
+    margin-top: 200px;
+    opacity: 0.8;
+    transform: scale(1);
+    /* duration = 0.2s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#third07:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
 

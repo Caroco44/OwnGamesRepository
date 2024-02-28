@@ -8,6 +8,7 @@ html {
 }
 
 #bunnyAssassin {
+    position: absolute;
     color: aliceblue;
     font-family: 'Pneumatics';
     font-size: 90px;
@@ -16,18 +17,20 @@ html {
 }
 
 #byCarolineKraemer {
+    position: absolute;
     color: aliceblue;
     font-family: 'Pneumatics';
     font-size: 30px;
     margin-left: 80px;
-    margin-top: -30px;
+    margin-top: 220px;
 }
 
 #startGameButton {
+    position: absolute;
     width: 250px;
     height: auto;
     margin-left: 330px;
-    margin-top: 80px;
+    margin-top: 350px;
     opacity: 0.8;
     transform: scale(1);
     /* duration = 0.5s, no delay */
@@ -37,4 +40,48 @@ html {
 #startGameButton:hover {
     transform: scale(1.1);
     opacity: 1;
+}
+
+
+
+#case {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    margin-left: 900px;
+    margin-top: 40px;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+    z-index: 1; /* Set a default z-index */
+}
+
+#case:hover {
+    transform: scale(1.1);
+    width: 500px;
+    height: auto;
+    margin-left: 650px;
+    margin-top: 30px;
+    z-index: 2; /* Bring it to the front when hovered */
+}
+
+#rules {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    margin-left: 760px;
+    margin-top: 260px;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+    z-index: 1; /* Set a default z-index */
+}
+
+#rules:hover {
+    transform: scale(1.1);
+    width: 500px;
+    height: auto;
+    margin-left: 650px;
+    margin-top: 110px;
+    z-index: 2; /* Bring it to the front when hovered */
 }

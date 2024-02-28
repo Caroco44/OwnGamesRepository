@@ -18,6 +18,7 @@ html {
 }
 
 #replay {
+    position: absolute;
     width: 350px;
     height: auto;
     margin-left: 180px;
@@ -33,3 +34,67 @@ html {
     opacity: 1;
 }
 
+/* all stories */
+
+#story1 {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    margin-left: 650px;
+    margin-top: 30px;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+    z-index: 1; /* Set a default z-index */
+}
+
+#story1:hover {
+    transform: scale(1.1);
+    width: 600px;
+    height: auto;
+    margin-left: 650px;
+    margin-top: 30px;
+    z-index: 2; /* Bring it to the front when hovered */
+}
+
+#story2 {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 140px;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+    z-index: 1; /* Set a default z-index */
+}
+
+#story2:hover {
+    transform: scale(1.1);
+    width: 600px;
+    height: auto;
+    margin-left: 650px;
+    margin-top: 30px;
+    z-index: 2; /* Bring it to the front when hovered */
+}
+
+#story3 {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    margin-left: 850px;
+    margin-top: 250px;
+    transform: scale(1);
+    /* duration = 0.5s, no delay */
+    transition: all 0.2s ease-in-out 0s;
+    z-index: 1; /* Set a default z-index */
+}
+
+#story3:hover {
+    transform: scale(1.1);
+    width: 600px;
+    height: auto;
+    margin-left: 650px;
+    margin-top: 30px;
+    z-index: 2; /* Bring it to the front when hovered */
+}
